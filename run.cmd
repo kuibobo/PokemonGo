@@ -1,0 +1,1 @@
+python ./runserver.py -a ptc -u "wuwenhui11" -p "123456"  -l "20.034236, 110.322866" -st 3 -k "AIzaSyDLR--gXw3eJi81yngNVCf_I3Onv6aVB8A"

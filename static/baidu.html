@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <meta charset="utf-8">
+    <title>波神的神奇宝贝地图</title>
+ 
+  </head>
+  <body id="top">
+     <div id="map"></div>
+     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=KB7Od4HaTWdwqYv4NtGPzQStghUWy5qE"></script>
+
+     <script>
+
+var map = new BMap.Map("map");  
+map.centerAndZoom(new BMap.Point(116.404, 39.915), 14);  
+var marker = new BMap.Marker(new BMap.Point(116.404, 39.915));        // 创建标注      
+map.addOverlay(marker);
+
+     </script>
+  </body>
+</html>
